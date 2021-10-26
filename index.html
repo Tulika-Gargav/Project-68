@@ -1,130 +1,141 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="utf-8">
+    <title>School Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    
-    
-    
-    
-    
-    
-    <title>School Website</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-<nav class="navbar-inverse my_nav_bar">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">St. Mary's Convent Sr. Sec. School</a> 
-    </div>
-    
-    <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-    
-        <li><a href="#schoolNameAndMoto">SCHOOL NAME</a></li>
-        <li><a href="#videos">VIDEOS</a></li>
-        <li><a href="#work">STAFF</a></li>
-        <li><a href="#connect">CONNECT</a></li>
-             <li><a href="#contact">CONTACT</a></li>
-            
-        <li><a href="#contact">CONTACT</a></li>
-
-    </ul>
-    </div>
+    <!--Assuming "Menu with Marquee" and "Contact Us" has been completed in Project 68 -->
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+        <div class="navbar-header"> 
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> 
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+                <span class="icon-bar"></span> 
+            </button> <a class="navbar-brand" href="#">Perter Parker</a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#campuslife">Campus Life</a> </li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#whatsnew">What's New</a></li>
+                 <li><a href="#alumni">Alumni</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </div>
     </nav>
         
+                
+                
+                
+                
+                
+    <div class="container">
+        <!--Campus Life-->
+        <div class="page-header" id="campus_life">
+            <h2 class="text-capitalize">Campus Life</h2>
 
-    <section id="schoolNameAnd Moto">
-            <img src="stbl.jpg" class="profile" />
-            <h1>I Am <br><span id="name">Tim Berners-Lee</span></h1>
-            <h2> I am the founder of www: World Wide Web</h2>
-        
-    </section>
+            <div class="row">
+                <!--1st Campus Life-->
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://live.staticflickr.com/4809/39704276483_28584e2ef2_b.jpg">
+                    <h4 class="text-capitalize"><kbd>school church</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was established in 1978</h5>
+                    <p class="text-muted text-left">The church is very old. The Pentecostal Mission ( TPM) or Ceylon Pentecostal Mission ( CPM) or New Testament Church ( NTC) or Universal Pentecostal Church ( UPC) is a Pentecostal denomination which was founded in Ceylon (now Sri Lanka) in 1923. In some countries, the church is known under other names.</p>
+                </div>
+                <!--2nd Campus Life-->
+                <div class="travel_mainDiv">
+                    <!--Give appropriate class below for the image img-responsive-->
+                    <img class="img-responsive" src="https://i.postimg.cc/KYzWbFpF/st2.jpg">
+                    <h4 class="text-capitalize"><kbd>school library</kbd></h4>
+                    <hr>
+                    <!--Give classes below text-success text-left-->
+                    <h5 class="text-success text-left text-capitalize">Was built in 1980</h5>
+                    <p class="text-muted text-left">A school library (or a school library media center) is a library within a school where students, staff, and often, parents of a public or private school have access to a variety of resources. The goal of the school library media center is to ensure that all members of the school community have equitable access "to books and reading, to information, and to information technology."[1] A school library media center "uses all types of media... is automated, and utilizes the Internet [as well as books] for information gathering."[2] School libraries are distinct from public libraries because they serve as "learner-oriented laboratories which support, extend, and individualize the school's curriculum... A school library serves as the center and coordinating agency for all material used in the school.</p>
 
+                </div>
+                <!--3rd Campus life-->
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://i.postimg.cc/cLDDX2xz/st3.jpg">
+                    <!-- Give text-capitalize below to make the first letters in Capitals-->
+                    <h4 class="text-captalize"><kbd>school auditorium</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was built in 1982</h5>
+                    <!-- Give text-muted below to show the text in grey color-->
+                    <p class="text-muted text-left">My School is supported by a  fully air conditioned School Auditorium  which is equipped with the most modern and audio visual facilities and a massive seating capacity of approximately 800 people. The sound proof auditorium hosts numerous events including Annual day, Award functions , Inter School Competitions and  Zonal level competitions. It is fitted with a projector, effective and modern light and effective sound system. All the major functions like various competitions and  Workshops are held in this auditorium which gives  exposure to the students in showcasing their talents and groom their inborn virtues.</p>
+                </div>
 
+            </div>
+        </div>
+        <!--Achievements-->
+        <div class="page-header" id="achievements">
+            <h2 class="text-capitalize">school achievements</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+            Inter School Debate On Environment Pollution <i class="fa fa-sort-desc"></i>
+        </div>
+        <!--1st Achievement-->
+        <div id="school_achievement1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://i.postimg.cc/KztDSHbx/se1.jpg" class="img-responsive img-thumbnail">
+            </div>
 
-    <section id="bio">
-        <h1>Hi!</h1>
-        <div class="line"></div>
-        <p>Tim Berners-Lee is a software engineer who invented the Internet (or the World Wide Web) in 1989 while at CERN, the European Particle Physics Laboratory.
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">Won first prize in inter school debate on environment pollution
+                </h5>
+                <p>Our school won 1st prize in the interschool competition. Many schools participated in the competion but we did the best.</p>
+            </div>
+        </div>
+        <!--2nd Achievement-->
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2">
+            Inter School Football Competition<i class="fa fa-sort-desc"></i>
+        </div>
 
-            He is director of the World Wide Web Consortium that he founded and a Professor in the Computer Science Department at the University of Oxford.
+        <div id="school_achievement2" class="collapse">
 
-            In 2001 he became a Fellow of the Royal Society and in 2004 he was knighted.<br><br>In 1994 Berners-Lee founded the World Wide Web Consortium (W3C) at the Laboratory of Computer Science (LCS) at the Massachusetts Institute of Technology in Boston. It was made up of companies that wanted to work together to create Web standards and also improve the Web. It was quickly agreed that the technology should be free of royalties and patents. Berners-Lee has served as director of this W3C since it was founded.
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                
+                <img src="https://i.postimg.cc/sxcP1G1L/sm2.jpg" class="img-responsive img-thumbnail">
+            </div>
+            
+            <div class="movie_text col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                <h5 class="text-success text-left text-capitalize">Came second in inter school football competition
+                </h5>
+                <p>Our school won 2nd prize in the interschool competition. Many schools participated and it was a tough competition.</p>
+            </div>
+        </div>
 
-            In 1995 Microsoft produced the first version of Internet Explorer and this commercial browser created enormous growth in websites and web users.
+        <!--3rd Achievement--->
 
-            The Web was first used for e-commerce in 1997.</p>
-    </section>
+        <div class="bg-primary  movie_head" data-toggle="collapse" data-target="#school_achievement3">
+            Inter School Science Project Competition<i class="fa fa-sort-desc"></i>
+        </div>
 
-    <section id="videos">
-        <h1>Videos</h1>
-        <div class="line"></div>
-        <br>
-        <iframe width="900" height="500" src="https://www.youtube.com/embed/OM6XIICm_qo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br>
-        <br>
-        <iframe width="900" height="500" src="https://www.youtube.com/embed/J8hzJxb0rpc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div id="school_achievement3" class="collapse">
+            <!-- Add bootstrap col-lg-3 col-md-3 col-sm-3 col-xs-12-->
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://i.postimg.cc/zXzS67cY/sm3.jpg" class="img-responsive img-thumbnail">
+            </div>
 
-    </section>
-    <section id="work">
-        <h1>WORK</h1>
-        <div class="line"></div>
-        <iframe width="900" height="1000" src="https://en.wikipedia.org/wiki/Tim_Berners-Lee#Career_and_research" frameborder="0"></iframe>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+              <h5 class="text-left text-success text-capitalize">Won second price in inter school Science Project competition
+                </h5>
+                <p>Science competitions are a great way to engage students, build on their practical skills and test their knowledge. Competition teaches the importance of teamwork, success and failure. You can also use competition materials in your lessons, as homework, or as part of an extracurricular science club.</p>
+            </div>
+        </div>
 
-    </section>
-    <section id="writings">
-        <h1 style="f">WRITINGS</h1>
-        <div class="line"></div>
-        <a class="article" href="https://webfoundation.org/2019/03/web-birthday-30" target="_blank">30 years on, what’s next ForTheWeb?</a>
-        <br>
-        <a class="article" href="https://interestingengineering.com/how-did-tim-berners-lee-change-the-world-with-the-world-wide-web" target="_blank">How Did Tim Berners-Lee Change the World With the World Wide Web?</a>
-    </section>
-<br>
-
-  <section id="contact">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.402864643955!2d76.04333761542271!3d22.972208623971966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39631798c7faa211%3A0xa80cf98918945e64!2sSt.%20Mary&#39;s%20Convent%20School%2C%20Dewas!5e0!3m2!1sen!2sin!4v1629888223639!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
-      
-      <div class="contact_1 col-lg-6 col-md-6 col-sm-6 col-xs-12" >
-          <a href="mailto:someone@example.com?Subject=Hello">
-              <i class="fa fa-envelope"></i>&nbsp;&nbsp;<h5>tulikagargav@gmail.com</h5>
-          </a>
-      <br>
-          <br>
-          <a href="#hello">
-              <i class="fa fa-instagram"></i>&nbsp;&nbsp;<h5>myinstagramid</h5>
-          </a>
-          
     </div>
-     <div class="contact_2 col-lg-6 col-md-6 col-sm-6 col-xs-12">
-         <form>
-             <span>Name : </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" required>
-             <br>
-             <br>
-             <span>Comment : </span><input type="text" name="comment" required>
-             <br>
-             <br>
-         <input type="submit" value="submit" class="btn btn-success" >
-         
-         </form>
-      </div>
-      
-      
-      
-      
-      
-      </section>
+    <div id="footer"></div>
+</body>
 
-</body></html>
+</html>
